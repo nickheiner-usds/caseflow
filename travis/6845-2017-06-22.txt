@@ -1,0 +1,910 @@
+Worker information
+hostname: production-5-worker-org-b-1-gce:57a4d30c-77fd-4e35-9b3c-76e1e765ca58
+version: v2.7.0 https://github.com/travis-ci/worker/tree/66fc24311e055643710f4e0567f6888c927d3ab8
+instance: testing-gce-31572e7d-b6b2-42ca-88a2-2b5d479569ae:travis-ci-sugilite-trusty-1480960799
+startup: 21.335609217s
+Build system information
+Build language: ruby
+Build group: deprecated-2017Q2
+Build dist: trusty
+Build id: 245815322
+Job id: 245815324
+travis-build version: b1c1ff156
+Build image provisioning date and time
+Mon Dec  5 18:47:20 UTC 2016
+Operating System Details
+Distributor ID:	Ubuntu
+Description:	Ubuntu 14.04.5 LTS
+Release:	14.04
+Codename:	trusty
+Linux Version
+4.4.0-51-generic
+Cookbooks Version
+998099c https://github.com/travis-ci/travis-cookbooks/tree/998099c
+git version
+git version 2.11.0
+bash version
+GNU bash, version 4.3.11(1)-release (x86_64-pc-linux-gnu)
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+gcc version
+gcc (Ubuntu 4.8.4-2ubuntu1~14.04.3) 4.8.4
+Copyright (C) 2013 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+docker version
+Client:
+ Version:      1.12.3
+ API version:  1.24
+ Go version:   go1.6.3
+ Git commit:   6b644ec
+ Built:        Wed Oct 26 21:44:32 2016
+ OS/Arch:      linux/amd64
+
+Server:
+ Version:      1.12.3
+ API version:  1.24
+ Go version:   go1.6.3
+ Git commit:   6b644ec
+ Built:        Wed Oct 26 21:44:32 2016
+ OS/Arch:      linux/amd64
+clang version
+clang version 3.5.0 (tags/RELEASE_350/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+jq version
+jq-1.5
+bats version
+Bats 0.4.0
+gimme version
+v1.0.0
+nvm version
+0.32.0
+perlbrew version
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.73
+postgresql client version
+psql (PostgreSQL) 9.6.1
+phpenv version
+rbenv 1.1.0
+rvm version
+rvm 1.27.0 (latest) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+default ruby version
+ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
+Pre-installed Ruby versions
+jruby-9.1.2.0
+ruby-1.9.3-p551
+ruby-2.0.0-p648
+ruby-2.1.10
+ruby-2.2.5
+ruby-2.3.1
+Pre-installed Node.js versions
+iojs-v1.6
+iojs-v1.6.4
+v0.10
+v0.10.40
+v0.11.16
+v0.12.2
+v0.12.7
+v0.6.21
+v0.8.28
+v4.1.2
+v4.6.2
+v6.9.1
+Pre-installed Go versions
+1.2.2
+1.3.3
+1.4.3
+1.5.4
+1.6.3
+1.7
+mysql version
+mysql  Ver 14.14 Distrib 5.6.33, for debian-linux-gnu (x86_64) using  EditLine wrapper
+Pre-installed PostgreSQL versions
+9.2.19
+9.3.15
+9.4.10
+9.5.5
+9.6.1
+Redis version
+redis-server 3.0.6
+MongoDB version
+MongoDB 3.2.11
+RabbitMQ Version
+3.6.6
+Installed Firefox version
+firefox 38.4.0esr
+ant version
+Apache Ant(TM) version 1.9.3 compiled on April 8 2014
+mvn version
+Apache Maven 3.1.1 (0728685237757ffbf44136acec0402957f723d9a; 2013-09-17 15:22:22+0000)
+Maven home: /usr/local/maven
+Java version: 1.8.0_111, vendor: Oracle Corporation
+Java home: /usr/lib/jvm/java-8-oracle/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "4.4.0-51-generic", arch: "amd64", family: "unix"
+gradle version
+
+------------------------------------------------------------
+Gradle 2.13
+------------------------------------------------------------
+
+Build time:   2016-04-25 04:10:10 UTC
+Build number: none
+Revision:     3b427b1481e46232107303c90be7b05079b05b1c
+
+Groovy:       2.4.4
+Ant:          Apache Ant(TM) version 1.9.6 compiled on June 29 2015
+JVM:          1.8.0_111 (Oracle Corporation 25.111-b14)
+OS:           Linux 4.4.0-51-generic amd64
+
+kerl list installations
+17.0
+17.1
+17.3
+17.4
+17.5
+18.0
+18.1
+18.2
+18.2.1
+R14B02
+R14B03
+R14B04
+R15B
+R15B01
+R15B02
+R15B03
+R16B
+R16B01
+R16B02
+R16B03
+R16B03-1
+kiex list
+
+kiex elixirs
+
+   elixir-1.0.3
+=* elixir-1.0.4
+
+# => - current
+# =* - current && default
+#  * - default
+
+rebar --version
+rebar 2.6.4 17 20160831_145136 git 2.6.4-dirty
+lein version
+WARNING: You're currently running as root; probably by accident.
+Press control-C to abort or Enter to continue as root.
+Set LEIN_ROOT to disable this warning.
+Leiningen 2.7.1 on Java 1.8.0_111 Java HotSpot(TM) 64-Bit Server VM
+perlbrew list
+  5.8 (5.8.8)
+  5.10 (5.10.1)
+  5.12 (5.12.5)
+  5.14 (5.14.4)
+  5.16 (5.16.3)
+  5.18 (5.18.4)
+  5.20 (5.20.3)
+  5.20-extras (5.20.3)
+  5.20-shrplib (5.20.3)
+  5.20.3
+  5.22 (5.22.0)
+  5.22-extras (5.22.0)
+  5.22-shrplib (5.22.0)
+  5.22.0
+phpenv versions
+  system
+  5.4
+  5.4.45
+  5.5.37
+  5.6
+* 5.6.24 (set by /home/travis/.phpenv/version)
+  7.0
+  7.0.7
+  hhvm
+  hhvm-stable
+composer --version
+Composer version 1.2.0 2016-07-19 01:28:52
+
+$ git clone --depth=50 https://github.com/department-of-veterans-affairs/caseflow.git department-of-veterans-affairs/caseflow
+Cloning into 'department-of-veterans-affairs/caseflow'...
+remote: Counting objects: 1306, done.
+remote: Compressing objects: 100% (1012/1012), done.
+remote: Total 1306 (delta 390), reused 780 (delta 240), pack-reused 0
+Receiving objects: 100% (1306/1306), 22.78 MiB | 20.68 MiB/s, done.
+Resolving deltas: 100% (390/390), done.
+
+$ cd department-of-veterans-affairs/caseflow
+$ git fetch origin +refs/pull/2183/merge:
+remote: Counting objects: 20553, done.
+remote: Compressing objects: 100% (5116/5116), done.
+remote: Total 20553 (delta 15772), reused 19846 (delta 15095), pack-reused 0
+Receiving objects: 100% (20553/20553), 7.40 MiB | 0 bytes/s, done.
+Resolving deltas: 100% (15772/15772), completed with 413 local objects.
+From https://github.com/department-of-veterans-affairs/caseflow
+ * branch              refs/pull/2183/merge -> FETCH_HEAD
+
+$ git checkout -qf FETCH_HEAD
+$ sudo service redis-server start
+redis-server start/running, process 3201
+
+
+Encrypted environment variables have been removed for security reasons.
+See https://docs.travis-ci.com/user/pull-requests/#Pull-Requests-and-Security-Restrictions
+$ rvm use 2.2.4 --install --binary --fuzzy
+ruby-2.2.4 is not installed - installing.
+Searching for binary rubies, this might take some time.
+Found remote file https://rubies.travis-ci.org/ubuntu/14.04/x86_64/ruby-2.2.4.tar.bz2
+Checking requirements for ubuntu.
+Requirements installation successful.
+ruby-2.2.4 - #configure
+ruby-2.2.4 - #download
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 23.3M  100 23.3M    0     0   479k      0  0:00:49  0:00:49 --:--:--  733k
+No checksum for downloaded archive, recording checksum in user configuration.
+ruby-2.2.4 - #validate archive
+ruby-2.2.4 - #extract
+ruby-2.2.4 - #validate binary
+ruby-2.2.4 - #setup
+ruby-2.2.4 - #gemset created /home/travis/.rvm/gems/ruby-2.2.4@global
+ruby-2.2.4 - #importing gemset /home/travis/.rvm/gemsets/global.gems|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|.
+ruby-2.2.4 - #generating global wrappers|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-.
+ruby-2.2.4 - #uninstalling gem rubygems-bundler-1.4.4|/.
+ruby-2.2.4 - #gemset created /home/travis/.rvm/gems/ruby-2.2.4
+ruby-2.2.4 - #importing gemset /home/travis/.rvm/gemsets/default.gems|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/.
+ruby-2.2.4 - #generating default wrappers|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\.
+Using /home/travis/.rvm/gems/ruby-2.2.4
+
+$ export BUNDLE_GEMFILE=$PWD/Gemfile
+Setting up build cache
+$ export CASHER_DIR=$HOME/.casher
+$ Installing caching utilities
+
+
+attempting to download cache archive
+fetching PR.2183/cache-linux-trusty-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855--rvm-2.2.4--gemfile-Gemfile.tgz
+found cache
+
+
+adding /home/travis/build/department-of-veterans-affairs/caseflow/vendor/bundle to cache
+creating directory /home/travis/build/department-of-veterans-affairs/caseflow/vendor/bundle
+adding /home/travis/build/department-of-veterans-affairs/caseflow/client/node_modules to cache
+creating directory /home/travis/build/department-of-veterans-affairs/caseflow/client/node_modules
+
+
+$ ruby --version
+ruby 2.2.4p230 (2015-12-16 revision 53155) [x86_64-linux]
+$ rvm --version
+rvm 1.27.0 (latest) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+$ bundle --version
+Bundler version 1.15.1
+$ gem --version
+2.6.12
+$ mkdir travis-node
+
+$ wget https://s3-us-gov-west-1.amazonaws.com/shared-s3/dsva-appeals/node-v6.10.2-linux-x64.tar.xz -O $PWD/travis-node/node-v6.10.2-linux-x64.tar.xz
+--2017-06-22 14:38:30--  https://s3-us-gov-west-1.amazonaws.com/shared-s3/dsva-appeals/node-v6.10.2-linux-x64.tar.xz
+Resolving s3-us-gov-west-1.amazonaws.com (s3-us-gov-west-1.amazonaws.com)... 52.92.253.4
+Connecting to s3-us-gov-west-1.amazonaws.com (s3-us-gov-west-1.amazonaws.com)|52.92.253.4|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 9366128 (8.9M) [application/x-www-form-urlencoded]
+Saving to: ‘/home/travis/build/department-of-veterans-affairs/caseflow/travis-node/node-v6.10.2-linux-x64.tar.xz’
+
+100%[======================================>] 9,366,128    345KB/s   in 15s    
+
+2017-06-22 14:38:45 (610 KB/s) - ‘/home/travis/build/department-of-veterans-affairs/caseflow/travis-node/node-v6.10.2-linux-x64.tar.xz’ saved [9366128/9366128]
+
+
+$ tar xf $PWD/travis-node/node-v6.10.2-linux-x64.tar.xz -C $PWD/travis-node
+
+$ export PATH=$PWD/travis-node/node-v6.10.2-linux-x64/bin:$PATH
+
+$ node -v
+v6.10.2
+
+$ sudo apt-get update
+Ign http://us-central1.gce.archive.ubuntu.com trusty InRelease
+Hit http://us-central1.gce.archive.ubuntu.com trusty-updates InRelease
+Hit http://us-central1.gce.archive.ubuntu.com trusty-backports InRelease
+Ign http://dl.google.com stable InRelease
+Hit http://us-central1.gce.archive.ubuntu.com trusty Release.gpg
+Hit http://us-central1.gce.archive.ubuntu.com trusty Release
+Ign http://repo.mongodb.org trusty/mongodb-org/3.2 InRelease
+Hit http://us-central1.gce.archive.ubuntu.com trusty-updates/main Sources
+Hit http://dl.hhvm.com trusty InRelease
+Hit http://repo.mongodb.org trusty/mongodb-org/3.2 Release.gpg
+Hit http://us-central1.gce.archive.ubuntu.com trusty-updates/restricted Sources
+Hit http://us-central1.gce.archive.ubuntu.com trusty-updates/universe Sources
+Hit http://us-central1.gce.archive.ubuntu.com trusty-updates/multiverse Sources
+Hit http://us-central1.gce.archive.ubuntu.com trusty-updates/main amd64 Packages
+Hit http://us-central1.gce.archive.ubuntu.com trusty-updates/restricted amd64 Packages
+Hit http://us-central1.gce.archive.ubuntu.com trusty-updates/universe amd64 Packages
+Hit http://us-central1.gce.archive.ubuntu.com trusty-updates/multiverse amd64 Packages
+Get:1 http://us-central1.gce.archive.ubuntu.com trusty-updates/main i386 Packages [1,181 kB]
+Hit http://repo.mongodb.org trusty/mongodb-org/3.2 Release
+Hit http://dl.google.com stable Release.gpg
+Hit http://dl.google.com stable Release
+Get:2 http://us-central1.gce.archive.ubuntu.com trusty-updates/restricted i386 Packages [20.9 kB]
+Get:3 http://us-central1.gce.archive.ubuntu.com trusty-updates/universe i386 Packages [541 kB]
+Get:4 http://us-central1.gce.archive.ubuntu.com trusty-updates/multiverse i386 Packages [16.1 kB]
+Hit http://us-central1.gce.archive.ubuntu.com trusty-updates/main Translation-en
+Hit http://repo.mongodb.org trusty/mongodb-org/3.2/multiverse amd64 Packages
+Ign http://toolbelt.heroku.com ./ InRelease
+Hit http://ppa.launchpad.net trusty InRelease
+Hit http://security.ubuntu.com trusty-security InRelease
+Hit http://dl.hhvm.com trusty/main amd64 Packages
+Hit http://dl.google.com stable/main amd64 Packages
+Get:5 http://repo.mongodb.org trusty/mongodb-org/3.2/multiverse i386 Packages [29 B]
+Hit http://us-central1.gce.archive.ubuntu.com trusty-updates/multiverse Translation-en
+Hit http://us-central1.gce.archive.ubuntu.com trusty-updates/restricted Translation-en
+Hit http://us-central1.gce.archive.ubuntu.com trusty-updates/universe Translation-en
+Hit http://us-central1.gce.archive.ubuntu.com trusty-backports/main Sources
+Hit http://us-central1.gce.archive.ubuntu.com trusty-backports/restricted Sources
+Hit http://us-central1.gce.archive.ubuntu.com trusty-backports/universe Sources
+Hit http://us-central1.gce.archive.ubuntu.com trusty-backports/multiverse Sources
+Hit http://us-central1.gce.archive.ubuntu.com trusty-backports/main amd64 Packages
+Hit http://us-central1.gce.archive.ubuntu.com trusty-backports/restricted amd64 Packages
+Hit http://us-central1.gce.archive.ubuntu.com trusty-backports/universe amd64 Packages
+Hit http://us-central1.gce.archive.ubuntu.com trusty-backports/multiverse amd64 Packages
+Get:6 http://us-central1.gce.archive.ubuntu.com trusty-backports/main i386 Packages [14.8 kB]
+Get:7 http://us-central1.gce.archive.ubuntu.com trusty-backports/restricted i386 Packages [40 B]
+Get:8 http://us-central1.gce.archive.ubuntu.com trusty-backports/universe i386 Packages [52.6 kB]
+Get:9 http://us-central1.gce.archive.ubuntu.com trusty-backports/multiverse i386 Packages [1,381 B]
+Hit http://us-central1.gce.archive.ubuntu.com trusty-backports/main Translation-en
+Hit http://us-central1.gce.archive.ubuntu.com trusty-backports/multiverse Translation-en
+Hit http://apt.postgresql.org trusty-pgdg InRelease
+Get:10 http://dl.hhvm.com trusty/main i386 Packages [20 B]
+Hit http://toolbelt.heroku.com ./ Release.gpg
+Hit http://us-central1.gce.archive.ubuntu.com trusty-backports/restricted Translation-en
+Hit http://us-central1.gce.archive.ubuntu.com trusty-backports/universe Translation-en
+Hit http://us-central1.gce.archive.ubuntu.com trusty/main Sources
+Hit http://us-central1.gce.archive.ubuntu.com trusty/restricted Sources
+Hit http://us-central1.gce.archive.ubuntu.com trusty/universe Sources
+Hit http://us-central1.gce.archive.ubuntu.com trusty/multiverse Sources
+Hit http://us-central1.gce.archive.ubuntu.com trusty/main amd64 Packages
+Hit http://us-central1.gce.archive.ubuntu.com trusty/restricted amd64 Packages
+Hit http://us-central1.gce.archive.ubuntu.com trusty/universe amd64 Packages
+Hit http://us-central1.gce.archive.ubuntu.com trusty/multiverse amd64 Packages
+Get:11 http://us-central1.gce.archive.ubuntu.com trusty/main i386 Packages [1,739 kB]
+Hit http://ppa.launchpad.net trusty InRelease
+Hit http://toolbelt.heroku.com ./ Release
+Ign http://repo.mongodb.org trusty/mongodb-org/3.2/multiverse Translation-en_US
+Get:12 http://us-central1.gce.archive.ubuntu.com trusty/restricted i386 Packages [16.4 kB]
+Get:13 http://us-central1.gce.archive.ubuntu.com trusty/universe i386 Packages [7,597 kB]
+Ign http://repo.mongodb.org trusty/mongodb-org/3.2/multiverse Translation-en
+Hit http://security.ubuntu.com trusty-security/main Sources
+Hit http://ppa.launchpad.net trusty InRelease
+Hit http://toolbelt.heroku.com ./ Packages
+Hit http://security.ubuntu.com trusty-security/restricted Sources
+Hit http://ppa.launchpad.net trusty InRelease
+Hit https://apt.dockerproject.org ubuntu-trusty InRelease
+Hit http://apt.postgresql.org trusty-pgdg/main amd64 Packages
+Hit http://security.ubuntu.com trusty-security/universe Sources
+Hit https://apt.dockerproject.org ubuntu-trusty/main amd64 Packages
+Hit http://ppa.launchpad.net trusty InRelease
+Ign http://dl.hhvm.com trusty/main Translation-en_US
+Ign http://dl.google.com stable/main Translation-en_US
+Get:14 http://us-central1.gce.archive.ubuntu.com trusty/multiverse i386 Packages [172 kB]
+Hit http://us-central1.gce.archive.ubuntu.com trusty/main Translation-en
+Hit http://us-central1.gce.archive.ubuntu.com trusty/multiverse Translation-en
+Ign http://dl.hhvm.com trusty/main Translation-en
+Hit http://security.ubuntu.com trusty-security/multiverse Sources
+Ign http://ppa.launchpad.net trusty InRelease
+Ign http://dl.google.com stable/main Translation-en
+Hit http://us-central1.gce.archive.ubuntu.com trusty/restricted Translation-en
+Hit http://us-central1.gce.archive.ubuntu.com trusty/universe Translation-en
+Get:15 https://apt.dockerproject.org ubuntu-trusty/main i386 Packages
+Ign http://us-central1.gce.archive.ubuntu.com trusty/main Translation-en_US
+Ign http://us-central1.gce.archive.ubuntu.com trusty/multiverse Translation-en_US
+Ign http://us-central1.gce.archive.ubuntu.com trusty/restricted Translation-en_US
+Ign http://us-central1.gce.archive.ubuntu.com trusty/universe Translation-en_US
+Get:16 https://apt.dockerproject.org ubuntu-trusty/main Translation-en_US
+Hit http://security.ubuntu.com trusty-security/main amd64 Packages
+Ign http://ppa.launchpad.net trusty InRelease
+Get:17 http://apt.postgresql.org trusty-pgdg/main i386 Packages [118 kB]
+Ign https://apt.dockerproject.org ubuntu-trusty/main Translation-en_US
+Ign https://apt.dockerproject.org ubuntu-trusty/main Translation-en
+Ign http://toolbelt.heroku.com ./ Translation-en_US
+Hit http://security.ubuntu.com trusty-security/restricted amd64 Packages
+Hit http://ppa.launchpad.net trusty InRelease
+Ign http://toolbelt.heroku.com ./ Translation-en
+Hit http://security.ubuntu.com trusty-security/universe amd64 Packages
+Hit http://ppa.launchpad.net trusty InRelease
+Hit http://security.ubuntu.com trusty-security/multiverse amd64 Packages
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit https://packagecloud.io trusty InRelease
+Get:18 http://security.ubuntu.com trusty-security/main i386 Packages [719 kB]
+Get:19 http://ppa.launchpad.net trusty/main i386 Packages [1,611 B]
+Hit https://packagecloud.io trusty InRelease
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit https://packagecloud.io trusty/main Sources
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit https://packagecloud.io trusty/main amd64 Packages
+Get:20 http://ppa.launchpad.net trusty/main i386 Packages [3,427 B]
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Get:21 https://packagecloud.io trusty/main Translation-en_US
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Get:22 http://ppa.launchpad.net trusty/main i386 Packages [7,556 B]
+Get:23 http://security.ubuntu.com trusty-security/restricted i386 Packages [17.6 kB]
+Hit https://packagecloud.io trusty/main Sources
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Get:24 http://security.ubuntu.com trusty-security/universe i386 Packages [222 kB]
+Hit https://packagecloud.io trusty/main amd64 Packages
+Get:25 http://security.ubuntu.com trusty-security/multiverse i386 Packages [4,180 B]
+Get:26 https://packagecloud.io trusty/main Translation-en_US
+Hit http://security.ubuntu.com trusty-security/main Translation-en
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://security.ubuntu.com trusty-security/multiverse Translation-en
+Get:27 http://ppa.launchpad.net trusty/main i386 Packages [445 B]
+Ign http://apt.postgresql.org trusty-pgdg/main Translation-en_US
+Hit http://security.ubuntu.com trusty-security/restricted Translation-en
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Ign http://apt.postgresql.org trusty-pgdg/main Translation-en
+Hit http://security.ubuntu.com trusty-security/universe Translation-en
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Get:28 http://ppa.launchpad.net trusty/main i386 Packages [3,055 B]
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://ppa.launchpad.net trusty Release.gpg
+Ign https://packagecloud.io trusty/main Translation-en_US
+Ign https://packagecloud.io trusty/main Translation-en
+Hit http://ppa.launchpad.net trusty Release.gpg
+Ign https://packagecloud.io trusty/main Translation-en_US
+Ign https://packagecloud.io trusty/main Translation-en
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Get:29 http://ppa.launchpad.net trusty/main i386 Packages [749 B]
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Get:30 http://ppa.launchpad.net trusty/main i386 Packages [3,143 B]
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://ppa.launchpad.net trusty Release
+Hit http://ppa.launchpad.net trusty Release
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Get:31 http://ppa.launchpad.net trusty/main i386 Packages [1,039 B]
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Get:32 http://ppa.launchpad.net trusty/main i386 Packages [1,043 B]
+Ign http://ppa.launchpad.net trusty/main Translation-en_US
+Ign http://ppa.launchpad.net trusty/main Translation-en
+Ign http://ppa.launchpad.net trusty/main Translation-en_US
+Ign http://ppa.launchpad.net trusty/main Translation-en
+Fetched 12.5 MB in 6s (1,999 kB/s)
+Reading package lists... Done
+
+$ wget https://s3-us-gov-west-1.amazonaws.com/dsva-appeals-devops/chromium-chromedriver_53.0.2785.143-0ubuntu0.14.04.1.1145_amd64.deb -O $PWD/chromium-chromedriver.deb
+--2017-06-22 14:38:56--  https://s3-us-gov-west-1.amazonaws.com/dsva-appeals-devops/chromium-chromedriver_53.0.2785.143-0ubuntu0.14.04.1.1145_amd64.deb
+Resolving s3-us-gov-west-1.amazonaws.com (s3-us-gov-west-1.amazonaws.com)... 52.92.252.4
+Connecting to s3-us-gov-west-1.amazonaws.com (s3-us-gov-west-1.amazonaws.com)|52.92.252.4|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 381990 (373K) [binary/octet-stream]
+Saving to: ‘/home/travis/build/department-of-veterans-affairs/caseflow/chromium-chromedriver.deb’
+
+100%[======================================>] 381,990      651KB/s   in 0.6s   
+
+2017-06-22 14:38:57 (651 KB/s) - ‘/home/travis/build/department-of-veterans-affairs/caseflow/chromium-chromedriver.deb’ saved [381990/381990]
+
+
+$ sudo dpkg -i $PWD/chromium-chromedriver.deb
+Selecting previously unselected package chromium-chromedriver.
+(Reading database ... 88286 files and directories currently installed.)
+Preparing to unpack .../chromium-chromedriver.deb ...
+Unpacking chromium-chromedriver (53.0.2785.143-0ubuntu0.14.04.1.1145) ...
+Setting up chromium-chromedriver (53.0.2785.143-0ubuntu0.14.04.1.1145) ...
+
+$ sudo apt-get install -f
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+0 upgraded, 0 newly installed, 0 to remove and 213 not upgraded.
+
+$ bundle install --deployment --without development staging production
+Fetching gem metadata from https://rubygems.org/..........
+Fetching version metadata from https://rubygems.org/..
+Fetching dependency metadata from https://rubygems.org/.
+Using rake 12.0.0
+Using aws-sigv4 1.0.0
+Using jmespath 1.3.1
+Using sass 3.4.23
+Using thor 0.19.4
+Using i18n 0.8.1
+Using json 1.8.6
+Using minitest 5.10.1
+Using thread_safe 0.3.6
+Using builder 3.2.3
+Using erubis 2.7.0
+Using mini_portile2 2.1.0
+Using rack 1.6.5
+Using mime-types-data 3.2016.0521
+Using arel 6.0.4
+Using concurrent-ruby 1.0.5
+Using bundler 1.15.1
+Using moment_timezone-rails 0.5.0
+Using sqlite3 1.3.13
+Using tilt 2.0.7
+Using execjs 2.7.0
+Using public_suffix 2.0.5
+Using connection_pool 2.2.1
+Using rainbow 2.2.1
+Using multi_json 1.12.1
+Using rdoc 4.3.0
+Using jsonapi-renderer 0.1.2
+Using puma 2.16.0
+Using wannabe_bool 0.6.0
+Using socksify 1.7.1
+Using nori 2.6.0
+Using cliver 0.3.2
+Using safe_shell 1.0.3
+Using multipart-post 2.0.0
+Using parallel 1.11.1
+Using libv8 3.16.14.19 (x86_64-linux)
+Using ref 2.0.0
+Using pg 0.20.0
+Using httpclient 2.8.3
+Using redis 3.3.3
+Using where-or 0.1.5
+Using quantile 0.2.0
+Using request_store 1.3.2
+Using aasm 4.11.0
+Using byebug 9.0.6
+Using coderay 1.1.1
+Using method_source 0.8.2
+Using slop 3.6.0
+Using rb-readline 0.5.4
+Using ast 2.3.0
+Using powerpack 0.1.1
+Using ruby-progressbar 1.8.1
+Using brakeman 3.6.0
+Using rspec-support 3.5.0
+Using diff-lcs 1.3
+Using ffi 1.9.18
+Using rubyzip 1.2.1
+Using websocket 1.2.4
+Using docile 1.1.5
+Using simplecov-html 0.10.0
+Using timecop 0.8.1
+Using websocket-extensions 0.1.2
+Using colorize 0.8.1
+Using database_cleaner 1.5.3
+Using aws-sdk-core 2.9.42
+Using uswds-rails 1.0.0 from https://github.com/18F/uswds-rails-gem.git (at master@aa12ddd)
+Using font-awesome-sass 4.7.0
+Using scss_lint 0.52.0
+Using bourbon 4.2.7
+Using neat 2.0.0
+Using tzinfo 1.2.2
+Using gyoku 1.3.1
+Using nokogiri 1.7.2
+Using rack-test 0.6.3
+Using rack-protection 1.5.3
+Using mime-types 3.1
+Using sprockets 3.7.1
+Using bundler-audit 0.5.0
+Using uglifier 3.1.9
+Using addressable 2.5.0
+Using sdoc 0.4.2
+Using httpi 2.4.2
+Using pdf-forms 1.1.1
+Using faraday 0.11.0
+Using parallel_tests 2.14.0
+Using therubyracer 0.12.3
+Using redis-store 1.2.0
+Using redis-namespace 1.5.3
+Using prometheus-client 0.6.0
+Using pry 0.10.4
+Using parser 2.4.0.0
+Using rspec-core 3.5.4
+Using rspec-expectations 3.5.0
+Using rspec-mocks 3.5.0
+Using childprocess 0.7.0
+Using simplecov 0.12.0
+Using websocket-driver 0.6.5
+Using aws-sdk-resources 2.9.42
+Using activesupport 4.2.7.1
+Using et-orbi 1.0.2
+Using loofah 2.0.3
+Using akami 1.3.1
+Using xmldsig 0.3.2
+Using xmlmapper 0.7.2
+Using xpath 2.0.0
+Using sidekiq 4.2.10
+Using mail 2.6.4
+Using launchy 2.4.3
+Using wasabi 3.5.0
+Using sentry-raven 2.4.0
+Using jshint 1.5.0
+Using redis-rack 1.6.0
+Using rubocop 0.36.0
+Using rspec 3.5.0
+Using selenium-webdriver 3.4.0
+Using aws-sdk 2.9.42
+Using rails-deprecated_sanitizer 1.0.3
+Using globalid 0.3.7
+Using activemodel 4.2.7.1
+Using jbuilder 2.6.3
+Using case_transform 0.2
+Using redis-activesupport 5.0.1
+Using rufus-scheduler 3.4.0
+Using rails-html-sanitizer 1.0.3
+Using capybara 2.13.0
+Using savon 2.11.1
+Using sniffybara 0.0.1 from https://github.com/department-of-veterans-affairs/sniffybara.git (at master@d5f9421)
+Using rails-dom-testing 1.0.8
+Using activejob 4.2.7.1
+Using activerecord 4.2.7.1
+Using xmlenc 0.6.9
+Using sidekiq-cron 0.4.5
+Using poltergeist 1.14.0
+Using bgs 0.1 from https://github.com/department-of-veterans-affairs/ruby-bgs.git (at 1156b0e@1156b0e)
+Using actionview 4.2.7.1
+Using zero_downtime_migrations 0.0.7
+Using connect_vbms 1.0.0 from https://github.com/department-of-veterans-affairs/connect_vbms.git (at f561599@f561599)
+Using actionpack 4.2.7.1
+Using railties 4.2.7.1
+Using actionmailer 4.2.7.1
+Using sprockets-rails 3.2.0
+Using active_model_serializers 0.10.6
+Using redis-actionpack 5.0.1
+Using d3-rails 4.9.1
+Using jquery-rails 4.3.1
+Using momentjs-rails 2.17.1
+Using rspec-rails 3.5.2
+Using rails 4.2.7.1
+Using sass-rails 5.0.6
+Using konacha 4.0.0
+Using redis-rails 5.0.1
+Using caseflow 0.1.6 from https://github.com/department-of-veterans-affairs/caseflow-commons (at c9680d1@c9680d1)
+Using react_on_rails 6.8.1
+Using pdfjs_viewer-rails 0.0.9 from https://github.com/senny/pdfjs_viewer-rails.git (at a4249ea@a4249ea)
+Bundle complete! 59 Gemfile dependencies, 154 gems now installed.
+Gems in the groups development, staging and production were not installed.
+Bundled gems are installed into ./vendor/bundle.
+
+$ node -v
+v6.10.2
+
+$ npm -v
+3.10.10
+
+$ cd ./client && npm install --no-optional
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.1.1 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.1.1: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+$ sudo apt-get install pdftk
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  gcj-4.8-jre-lib libgcj-common libgcj14
+Suggested packages:
+  libgcj14-dbg libgcj14-awt xpdf-utils
+The following NEW packages will be installed:
+  gcj-4.8-jre-lib libgcj-common libgcj14 pdftk
+0 upgraded, 4 newly installed, 0 to remove and 213 not upgraded.
+Need to get 20.8 MB of archives.
+After this operation, 70.3 MB of additional disk space will be used.
+Get:1 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/main libgcj-common all 1:4.8.2-1ubuntu6 [137 kB]
+Get:2 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty-updates/main libgcj14 amd64 4.8.4-2ubuntu1~14.04.3 [9,234 kB]
+Get:3 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty-updates/main gcj-4.8-jre-lib all 4.8.4-2ubuntu1~14.04.3 [10.4 MB]
+Get:4 http://us-central1.gce.archive.ubuntu.com/ubuntu/ trusty/universe pdftk amd64 2.01-1 [1,044 kB]
+Fetched 20.8 MB in 0s (48.5 MB/s)
+Selecting previously unselected package libgcj-common.
+(Reading database ... 88290 files and directories currently installed.)
+Preparing to unpack .../libgcj-common_1%3a4.8.2-1ubuntu6_all.deb ...
+Unpacking libgcj-common (1:4.8.2-1ubuntu6) ...
+Selecting previously unselected package libgcj14:amd64.
+Preparing to unpack .../libgcj14_4.8.4-2ubuntu1~14.04.3_amd64.deb ...
+Unpacking libgcj14:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Selecting previously unselected package gcj-4.8-jre-lib.
+Preparing to unpack .../gcj-4.8-jre-lib_4.8.4-2ubuntu1~14.04.3_all.deb ...
+Unpacking gcj-4.8-jre-lib (4.8.4-2ubuntu1~14.04.3) ...
+Selecting previously unselected package pdftk.
+Preparing to unpack .../pdftk_2.01-1_amd64.deb ...
+Unpacking pdftk (2.01-1) ...
+Processing triggers for ccache (3.1.9-1) ...
+Updating symlinks in /usr/lib/ccache ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Setting up libgcj-common (1:4.8.2-1ubuntu6) ...
+Setting up libgcj14:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Setting up gcj-4.8-jre-lib (4.8.4-2ubuntu1~14.04.3) ...
+Setting up pdftk (2.01-1) ...
+Processing triggers for libc-bin (2.19-0ubuntu6.9) ...
+
+$ RAILS_ENV=test bundle exec rake db:create
+(in /home/travis/build/department-of-veterans-affairs/caseflow)
+
+$ RAILS_ENV=test bundle exec rake db:schema:load
+(in /home/travis/build/department-of-veterans-affairs/caseflow)
+-- enable_extension("plpgsql")
+   -> 0.0186s
+-- create_table("annotations", {:force=>:cascade})
+   -> 0.0056s
+-- add_index("annotations", ["document_id"], {:name=>"index_annotations_on_document_id", :using=>:btree})
+   -> 0.0021s
+-- add_index("annotations", ["user_id"], {:name=>"index_annotations_on_user_id", :using=>:btree})
+   -> 0.0019s
+-- create_table("api_keys", {:force=>:cascade})
+   -> 0.0023s
+-- add_index("api_keys", ["consumer_name"], {:name=>"index_api_keys_on_consumer_name", :unique=>true, :using=>:btree})
+   -> 0.0019s
+-- add_index("api_keys", ["key_digest"], {:name=>"index_api_keys_on_key_digest", :unique=>true, :using=>:btree})
+   -> 0.0019s
+-- create_table("appeals", {:force=>:cascade})
+   -> 0.0076s
+-- add_index("appeals", ["vacols_id"], {:name=>"index_appeals_on_vacols_id", :unique=>true, :using=>:btree})
+   -> 0.0021s
+-- create_table("certification_cancellations", {:force=>:cascade})
+   -> 0.0022s
+-- add_index("certification_cancellations", ["certification_id"], {:name=>"index_certification_cancellations_on_certification_id", :unique=>true, :using=>:btree})
+   -> 0.0018s
+-- create_table("certifications", {:force=>:cascade})
+   -> 0.0030s
+-- add_index("certifications", ["user_id"], {:name=>"index_certifications_on_user_id", :using=>:btree})
+   -> 0.0019s
+-- create_table("claim_establishments", {:force=>:cascade})
+   -> 0.0025s
+-- create_table("document_views", {:force=>:cascade})
+   -> 0.0020s
+-- add_index("document_views", ["document_id", "user_id"], {:name=>"index_document_views_on_document_id_and_user_id", :unique=>true, :using=>:btree})
+   -> 0.0019s
+-- create_table("documents", {:force=>:cascade})
+   -> 0.0023s
+-- add_index("documents", ["vbms_document_id"], {:name=>"index_documents_on_vbms_document_id", :unique=>true, :using=>:btree})
+   -> 0.0019s
+-- create_table("documents_tags", {:id=>false, :force=>:cascade})
+   -> 0.0012s
+-- add_index("documents_tags", ["document_id", "tag_id"], {:name=>"index_documents_tags_on_document_id_and_tag_id", :unique=>true, :using=>:btree})
+   -> 0.0020s
+-- create_table("form8s", {:force=>:cascade})
+   -> 0.0039s
+-- add_index("form8s", ["certification_id"], {:name=>"index_form8s_on_certification_id", :using=>:btree})
+   -> 0.0019s
+-- create_table("hearings", {:force=>:cascade})
+   -> 0.0024s
+-- create_table("issues", {:force=>:cascade})
+   -> 0.0028s
+-- create_table("tags", {:force=>:cascade})
+   -> 0.0021s
+-- add_index("tags", ["text"], {:name=>"index_tags_on_text", :unique=>true, :using=>:btree})
+   -> 0.0019s
+-- create_table("tasks", {:force=>:cascade})
+   -> 0.0025s
+-- create_table("team_quotas", {:force=>:cascade})
+   -> 0.0022s
+-- add_index("team_quotas", ["date", "task_type"], {:name=>"index_team_quotas_on_date_and_task_type", :unique=>true, :using=>:btree})
+   -> 0.0021s
+-- create_table("user_quotas", {:force=>:cascade})
+   -> 0.0019s
+-- add_index("user_quotas", ["team_quota_id", "user_id"], {:name=>"index_user_quotas_on_team_quota_id_and_user_id", :unique=>true, :using=>:btree})
+   -> 0.0020s
+-- create_table("users", {:force=>:cascade})
+   -> 0.0023s
+-- add_index("users", ["station_id", "css_id"], {:name=>"index_users_on_station_id_and_css_id", :unique=>true, :using=>:btree})
+   -> 0.0018s
+-- add_foreign_key("annotations", "users")
+   -> 0.0017s
+-- add_foreign_key("certifications", "users")
+   -> 0.0013s
+-- initialize_schema_migrations_table()
+   -> 0.0090s
+
+$ export PATH=$PATH:/usr/lib/chromium-browser/
+
+$ export DISPLAY=:99.0
+
+$ sh -e /etc/init.d/xvfb start
+Starting virtual X frame buffer: Xvfb.
+
+$ sleep 3
+
+$ bundle exec rake spec
+(in /home/travis/build/department-of-veterans-affairs/caseflow)
+I, [2017-06-22T14:39:42.407871 #7180]  INFO -- : Removed /home/travis/build/department-of-veterans-affairs/caseflow/public/assets
+/home/travis/.rvm/rubies/ruby-2.2.4/bin/ruby -I/home/travis/build/department-of-veterans-affairs/caseflow/vendor/bundle/ruby/2.2.0/gems/rspec-core-3.5.4/lib:/home/travis/build/department-of-veterans-affairs/caseflow/vendor/bundle/ruby/2.2.0/gems/rspec-support-3.5.0/lib /home/travis/build/department-of-veterans-affairs/caseflow/vendor/bundle/ruby/2.2.0/gems/rspec-core-3.5.4/exe/rspec --pattern spec/\*\*\{,/\*/\*\*\}/\*_spec.rb
+
+====> React On Rails: Checking app/assets/webpack for outdated/missing bundles
+
+
+Detected are the following stale generated files:
+app/assets/webpack/webpack-bundle.js
+
+React on Rails will ensure your JavaScript generated files are up to date, using your
+/client level package.json `npm run build:test` command.
+
+
+Building Webpack assets...
+Completed building Webpack assets.
+Warning: skipping block because find('body').send_keys does not work on Travis
+Run options: include {:focus=>true}
+
+All examples were filtered out; ignoring {:focus=>true}
+
+CertificationCancellationsController
+  Responds to
+    responds to HTML format
+      when it passes validation
+      when it fails validation
+    responds to JSON format
+      when it passes validation
+      when it fails validation
+
+Admin
+
+All visited screens will be scanned for 508 accessibility compliance.
+  Establish Claim page
+
+Appeals API v1
+  Appeal list
+    returns 401 if API key not authorized
+    returns 422 if SSN is invalid
+    returns 404 if veteran with that SSN isn't found
+    caches response
+    returns 500 on any other error
+    returns list of appeals for veteran with SSN
+
+ApplicationHelper
+  #current_ga_path
+    returns route's path without resource ids
+    returns route's path when method is POST
+
+Cancel certification
+  As an authorized user for Certification V1
+    Validate Input Fields
+    Test Characters remaining
+    Click cancel when certification has mistmatched documents
+  As an authorized user for Certification V2
+    Validate Input Fields
+    Click cancel when certification has mistmatched documents
+
+Certification Stats Dashboard
+  Switching tab intervals
+  Check missing documents
+  Toggle median to 95th percentile and navigate to past periods
+  Unauthorized user access
+
+Confirm Certification
+  Screen reader user visits pdf link
+  Successful confirmation
+
+Dispatch Stats Dashboard
+  Users without manager permissions cannot view page
+  .show#daily
+    switches between the tabs
+  .show
+    loads the correct stats
+
+Dropdown
+  What's new indicator is reset after visiting /whats-new
+  Dropdown works on both erb and react pages
+
+Establish Claim - ARC Dispatch
+  As a manager
+    View quotas and update employee count
+    Edit individual user quotas
+    View unprepared tasks page
+    View canceled EPs page
+  As a caseworker
+    Assign the correct new task to myself
+    Visit an Establish Claim task that is assigned to another user
+    Go back and forward in the browser
+    Cannot re-complete a completed task
+    Cancel a claims establishment
+    Error establishing claim
+    For an appeal with multiple possible decision documents in VBMS
+      Review page lets users choose which document to use
+      the EP creation page has a link back to decision review
+    For a full grant
+      Establish a new claim with special issue routed to national office
+      Establish a new claim with special issue routed to ROJ
+      Establish a new claim with special issues by routing via email
+      When there is an existing 070 EP
+
+
+No output has been received in the last 10m0s, this potentially indicates a stalled build or something wrong with the build itself.
+Check the details on how to adjust your build configuration on: https://docs.travis-ci.com/user/common-build-problems/#Build-times-out-because-no-output-was-received
+
+The build has been terminated
+
