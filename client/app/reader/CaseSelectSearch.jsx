@@ -91,7 +91,7 @@ class CaseSelectSearch extends React.PureComponent {
       }
       <SearchBar
         id="searchBar"
-        size="small"
+        size="big"
         onChange={this.props.setCaseSelectSearch}
         value={this.props.caseSelectCriteria.searchQuery}
         onClearSearch={this.props.clearCaseSelectSearch}
