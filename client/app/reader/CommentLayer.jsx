@@ -1,21 +1,16 @@
 import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 import PropTypes from 'prop-types';
-import _ from 'lodash';
-
 import { makeGetAnnotationsByDocumentId } from '../reader/selectors';
-import CommentIcon from './CommentIcon';
+import CommentIcon from '../components/CommentIcon';
 import { keyOfAnnotation, pageNumberOfPageIndex, getPageCoordinatesOfMouseEvent } from './utils';
-import { handleSelectCommentIcon, placeAnnotation,
-  requestMoveAnnotation, showPlaceAnnotationIcon } from '../reader/actions';
-import { CATEGORIES } from '../reader/analytics';
+import _ from 'lodash';
+import { handleSelectCommentIcon, placeAnnotation } from '../reader/actions';
+import { bindActionCreators } from 'redux';
 
 const DIV_STYLING = {
   width: '100%',
-  height: '100%',
-  zIndex: 10,
-  position: 'relative'
+  height: '100%'
 };
 
 // The comment layer is a div on top of a page that draws the comment
@@ -49,6 +44,8 @@ class CommentLayer extends PureComponent {
     );
   };
 
+  getCommentLayerDivRef = (ref) => this.commentLayerDiv = ref
+
   getPlacingAnnotation = () => {
     if (this.props.placingAnnotationIconPageCoords && this.props.isPlacingAnnotation) {
       return [{
@@ -62,67 +59,11 @@ class CommentLayer extends PureComponent {
     return [];
 
   }
-  // Move the comment when it's dropped on a page
-  // eslint-disable-next-line max-statements
-  onCommentDrop = (event) => {
-    const dragAndDropPayload = event.dataTransfer.getData('text');
-    let dragAndDropData;
 
-    // Anything can be dragged and dropped. If the item that was
-    // dropped doesn't match what we expect, we just silently ignore it.
-    const logInvalidDragAndDrop = () => window.analyticsEvent(CATEGORIES.VIEW_DOCUMENT_PAGE, 'invalid-drag-and-drop');
-
-    try {
-      dragAndDropData = JSON.parse(dragAndDropPayload);
-
-      if (!dragAndDropData.iconCoordinates || !dragAndDropData.uuid) {
-        logInvalidDragAndDrop();
-
-        return;
-      }
-    } catch (err) {
-      if (err instanceof SyntaxError) {
-        logInvalidDragAndDrop();
-
-        return;
-      }
-      throw err;
-    }
-
-    const pageBox = this.commentLayerDiv.getBoundingClientRect();
-
-    const coordinates = {
-      x: (event.pageX - pageBox.left - dragAndDropData.iconCoordinates.x) / this.props.scale,
-      y: (event.pageY - pageBox.top - dragAndDropData.iconCoordinates.y) / this.props.scale
-    };
-
-    const droppedAnnotation = {
-      ...this.props.allAnnotations[dragAndDropData.uuid],
-      ...coordinates
-    };
-
-    this.props.requestMoveAnnotation(droppedAnnotation);
+  getAnnotationsForPage = () => {
+    return this.props.comments.concat(this.getPlacingAnnotation()).
+      filter((comment) => comment.page === pageNumberOfPageIndex(this.props.pageIndex));
   }
-
-  mouseListener = (event) => {
-    if (this.props.isPlacingAnnotation) {
-      const pageCoords = getPageCoordinatesOfMouseEvent(
-        event,
-        this.commentLayerDiv.getBoundingClientRect(),
-        this.props.scale
-      );
-
-      this.props.showPlaceAnnotationIcon(this.props.pageIndex, pageCoords);
-    }
-  }
-
-  // To specify the component as droppable, we need to preventDefault on the event.
-  onPageDragOver = (event) => event.preventDefault()
-
-  getCommentLayerDivRef = (ref) => this.commentLayerDiv = ref
-
-  getAnnotationsForPage = () => this.props.comments.concat(this.getPlacingAnnotation()).
-      filter((comment) => comment.page === pageNumberOfPageIndex(this.props.pageIndex))
 
   getCommentIcons = () => this.getAnnotationsForPage().map((comment) => <CommentIcon
     comment={comment}
@@ -137,10 +78,7 @@ class CommentLayer extends PureComponent {
     return <div
       id={`comment-layer-${this.props.pageIndex}`}
       style={DIV_STYLING}
-      onDragOver={this.onPageDragOver}
-      onDrop={this.onCommentDrop}
       onClick={this.onPageClick}
-      onMouseMove={this.mouseListener}
       ref={this.getCommentLayerDivRef}>
       {this.getCommentIcons()}
     </div>;
@@ -166,16 +104,13 @@ CommentLayer.propTypes = {
 const mapStateToProps = (state, ownProps) => ({
   ...state.readerReducer.ui.pdf,
   ..._.pick(state.readerReducer, 'placingAnnotationIconPageCoords'),
-  comments: makeGetAnnotationsByDocumentId(state.readerReducer)(ownProps.documentId),
-  allAnnotations: state.readerReducer.annotations
+  comments: makeGetAnnotationsByDocumentId(state.readerReducer)(ownProps.documentId)
 });
 
 const mapDispatchToProps = (dispatch) => ({
   ...bindActionCreators({
     placeAnnotation,
-    handleSelectCommentIcon,
-    requestMoveAnnotation,
-    showPlaceAnnotationIcon
+    handleSelectCommentIcon
   }, dispatch)
 });
 
