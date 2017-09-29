@@ -14,7 +14,7 @@ const categoriesOfDocument = (document) => _(Constants.documentCategories).
     sortBy('renderOrder').
     value();
 
-class DocumentCategoryIcons extends React.Component {
+class DocumentCategoryIcons extends React.PureComponent {
   render() {
     const { searchCategoryHighlights, doc } = this.props;
     const categories = categoriesOfDocument(doc);
