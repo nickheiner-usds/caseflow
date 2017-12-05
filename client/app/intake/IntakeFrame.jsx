@@ -21,35 +21,28 @@ import CompletedPage, { CompletedNextButton } from './pages/completed';
 import { PAGE_PATHS, REQUEST_STATE } from './constants';
 import { toggleCancelModal, submitCancel } from './redux/actions';
 
-const makeSwitchOnForm = (formComponentMapping, componentForNoFormSelected) => {
-  class SwitchOnForm extends React.PureComponent {
-    render = () => {
-      const { formSelection } = this.props;
+class SwitchOnForm extends React.PureComponent {
+  render = () => {
+    const { formSelection, formComponentMapping, componentForNoFormSelected } = this.props;
 
-      if (!formSelection) {
-        return componentForNoFormSelected;
-      }
-
-      const child = formComponentMapping[formSelection];
-
-      // eslint-disable-next-line no-undefined
-      if (child === undefined) {
-        throw new Error(`SwitchOnForm does not have a mapping for current form selection: '${formSelection}'`);
-      }
-
-      return child;
+    if (!formSelection) {
+      return componentForNoFormSelected;
     }
+
+    const child = formComponentMapping[formSelection];
+
+    // eslint-disable-next-line no-undefined
+    if (child === undefined) {
+      throw new Error(`SwitchOnForm does not have a mapping for current form selection: '${formSelection}'`);
+    }
+
+    return child;
   }
+}
 
-  return connect(
-    ({ formSelection }) => ({ formSelection })
-  )(SwitchOnForm);
-};
-
-const FormSwitch = makeSwitchOnForm({
-  ramp_election: <p>Component for Ramp Election</p>,
-  ramp_reentry: <p>Component for Ramp Reentry</p>
-}, <p>Component for no form selected</p>);
+const ConnectedSwitchOnForm = connect(
+  ({ formSelection }) => ({ formSelection })
+)(SwitchOnForm);
 
 class IntakeFrame extends React.PureComponent {
   handleSubmitCancel = () => (
@@ -93,7 +86,13 @@ class IntakeFrame extends React.PureComponent {
           topMessage={topMessage}
           defaultUrl="/">
           <AppFrame>
-            <FormSwitch />
+            <ConnectedSwitchOnForm
+              formComponentMapping={{
+                ramp_election: <p>Component: Ramp Election</p>,
+                ramp_reentry: <p>Component: Ramp Reentry</p>
+              }}
+              componentForNoFormSelected={<p>Component: no form selected</p>}
+            />
             <IntakeProgressBar />
             <PrimaryAppContent>
               { this.props.requestStatus.cancelIntake === REQUEST_STATE.FAILED &&
